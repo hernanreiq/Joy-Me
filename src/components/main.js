@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "../assets/css/main.css";
 import photo1 from "../assets/img/photo (1).jpg";
 import photo3 from "../assets/img/photo (3).jpg";
@@ -6,7 +6,7 @@ import photo4 from "../assets/img/photo (4).jpg";
 import photo6 from "../assets/img/photo (6).jpg";
 
 class Main extends Component {
-    render(){
+    render() {
         return (
             <React.Fragment>
                 <div className="white-division"></div>
