@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.white-division {
+  height: 3px;
+  background: #302b63;
+  background: -webkit-linear-gradient(to right, #302b63, #ffffff, #302b63);  
+  background: linear-gradient(to right, #302b63, #ffffff, #302b63); 
+}
