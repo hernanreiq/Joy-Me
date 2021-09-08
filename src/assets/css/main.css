@@ -3,3 +3,24 @@ main {
     background: -webkit-linear-gradient(to right, #302b63, #155799, #302b63);  
     background: linear-gradient(to right, #302b63, #155799, #302b63); 
 }
+#container_current_image {
+    max-height: 600px;
+    min-height: 400px;
+    text-align: center;
+}
+#container_current_image img {
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 600px;
+    box-shadow: black 0px 0px 5px;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+
+#container_carousel_images {
+    max-height: 100px;
+}
+
+#container_carousel_images img {
+    height: 100px;
+}
