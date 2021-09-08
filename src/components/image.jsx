@@ -6,7 +6,7 @@ class Image extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="card bg-transparent" key={this.props.id}>
+                <div className="card bg-transparent">
                     <img src={this.props.src} alt="Happy Carousel For Joy Me" />
                 </div>
             </React.Fragment>

@@ -39,7 +39,7 @@ class Main extends Component {
                                 this.state.all_Images.map((image, i) => {
                                     return (
                                         <Image
-                                            id={i}
+                                            key={i}
                                             src={image.default}
                                         />
                                     )
