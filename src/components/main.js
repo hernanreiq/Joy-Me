@@ -34,7 +34,7 @@ class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <a name="current">
+                <a name="current" href="#current">
                     <div className="white-division"></div>
                 </a>
                 <main onLoad={this.getImagesSRC}>
