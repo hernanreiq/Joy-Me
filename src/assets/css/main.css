@@ -39,6 +39,11 @@ main {
     border-radius: 10px;
 }
 
+.card {
+    border: none;
+    padding: 5px;
+}
+
 .card-columns {
     column-count: 5;
 }

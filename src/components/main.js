@@ -24,7 +24,7 @@ class Main extends Component {
         });
     }
 
-    changeImage = (src, id) =>{
+    changeImage = (src, id) => {
         this.setState({
             current_image: src,
             current_caption: this.state.caption_images[id]
@@ -34,11 +34,13 @@ class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="white-division"></div>
+                <a name="current">
+                    <div className="white-division"></div>
+                </a>
                 <main onLoad={this.getImagesSRC}>
                     <div className="container p-5">
                         <div id="container_current_image">
-                            <img src={this.state.current_image} alt="Testing" />
+                            <img src={this.state.current_image} alt={this.state.current_caption} />
                         </div>
                         <div className="container_caption">
                             <p className="caption">{this.state.current_caption}</p>

@@ -10,7 +10,9 @@ class Image extends Component {
         return (
             <React.Fragment>
                 <div className="card bg-transparent">
-                    <img src={this.props.src} alt="Happy Carousel For Joy Me" onClick={this.select_image} />
+                    <a href="#current">
+                        <img src={this.props.src} alt="Happy Carousel For Joy Me" onClick={this.select_image} />
+                    </a>
                 </div>
             </React.Fragment>
         )
