@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../assets/css/main.css";
 import Image from "./image";
 import photo1 from '../assets/img/photo (1).jpg';
+import Footer from './footer';
 
 class Main extends Component {
     state = {
@@ -61,6 +62,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </main>
+                <Footer />
             </React.Fragment>
         );
     }

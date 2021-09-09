@@ -1,4 +1,4 @@
-main {
+main, body {
     background: #302b63;
     background: -webkit-linear-gradient(to right, #302b63, #155799, #302b63);  
     background: linear-gradient(to right, #302b63, #155799, #302b63); 

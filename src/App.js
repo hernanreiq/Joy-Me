@@ -1,16 +1,14 @@
 import React from 'react';
 import Header from './components/header';
-import Main from './components/main';
-import Footer from './components/footer';
+import Router from './Router';
 
-function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Main />
-      <Footer />
-    </React.Fragment>
-  );
+function App(){
+    return (
+      <React.Fragment>
+        <Header />
+        <Router />
+      </React.Fragment>
+    );
 }
 
 export default App;

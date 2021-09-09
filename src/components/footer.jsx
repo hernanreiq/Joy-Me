@@ -10,6 +10,7 @@ function Footer(){
                         <a href="https://bit.ly/hernanreiq" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-warning">Hernan.Reiq</a> <br />
                         All rights reserved &copy;.
                     </p>
+                    <a href="/about" className="btn btn-info mt-3">About this <i className="fas fa-info-circle"></i></a>
                 </div>
             </footer>
         </React.Fragment>
