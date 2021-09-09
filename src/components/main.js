@@ -5,6 +5,8 @@ import photo1 from '../assets/img/photo (1).jpg';
 
 class Main extends Component {
     state = {
+        current_image: photo1,
+        current_caption: 'Invirtiendo en construcción, para mejorar el hogar y aumentar su valor.',
         imagesQuantity: 8,
         all_Images: [],
         caption_images: ['Invirtiendo en construcción, para mejorar el hogar y aumentar su valor.',
@@ -22,6 +24,13 @@ class Main extends Component {
         });
     }
 
+    changeImage = (src, id) =>{
+        this.setState({
+            current_image: src,
+            current_caption: this.state.caption_images[id]
+        });
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -29,10 +38,10 @@ class Main extends Component {
                 <main onLoad={this.getImagesSRC}>
                     <div className="container p-5">
                         <div id="container_current_image">
-                            <img src={photo1} alt="Testing" />
+                            <img src={this.state.current_image} alt="Testing" />
                         </div>
                         <div className="container_caption">
-                            <p className="caption">{this.state.caption_images[0]}</p>
+                            <p className="caption">{this.state.current_caption}</p>
                         </div>
                         <div id="container_carousel_images" className="card-columns">
                             {
@@ -41,6 +50,8 @@ class Main extends Component {
                                         <Image
                                             key={i}
                                             src={image.default}
+                                            changeImage={this.changeImage}
+                                            id={i}
                                         />
                                     )
                                 })

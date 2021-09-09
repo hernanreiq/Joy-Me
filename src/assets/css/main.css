@@ -4,14 +4,14 @@ main {
     background: linear-gradient(to right, #302b63, #155799, #302b63); 
 }
 #container_current_image {
-    max-height: 600px;
+    max-height: 580px;
     min-height: 200px;
     text-align: center;
 }
 #container_current_image img {
     max-width: 100%;
     min-height: 200px;
-    max-height: 600px;
+    max-height: 580px;
 }
 
 #container_carousel_images {
