@@ -4,11 +4,11 @@ header, footer, .container_caption {
     background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #0f0c29);  
     background: linear-gradient(to right, #0f0c29, #302b63, #0f0c29); 
 }
-header p, footer p, p.caption{
+header p, footer p, p.caption, .card p, .btn{
     letter-spacing: 1px;
     font-family: 'Noto Sans JP', sans-serif;
 }
-header h1 {
+header h1, .card h2 {
     font-family: 'Kaushan Script', cursive;
 }
 header h1, header p {

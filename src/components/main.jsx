@@ -7,13 +7,13 @@ import Footer from './footer';
 class Main extends Component {
     state = {
         current_image: photo1,
-        current_caption: 'Invirtiendo en construcción, para mejorar el hogar y aumentar su valor.',
+        current_caption: 'Investing in construction, to improve the home and increase its value.',
         imagesQuantity: 8,
         all_Images: [],
-        caption_images: ['Invirtiendo en construcción, para mejorar el hogar y aumentar su valor.',
-            'Una gata durmiendo plácidamente.', 'Protegiendo la naturaleza.',
-            'Una abuela felíz de poder cargar a su nieto.', 'Creando un portafolio que sirva de carta de presentación para una persona que quiere mejorar su vida.',
-            'Madre soltera construyendo el hogar de sus tres hijos.', 'Gato rubio en un hogar.', 'Foto de graduación de un estudiante universitario.']
+        caption_images: ['Investing in construction, to improve the home and increase its value.',
+            'My cat sleeping peacefully, happy to be in a family that loves her very much.', 'Protecting nature from the worst plague on the planet, humans.',
+            'A happy grandmother carrying her grandson.', 'Creation of a portfolio as a presentation tool for knowledge in development and web design.',
+            'Single mother building a home for her three children.', 'A blond cat being part of a family that pampers him a lot.', 'Photo of a student\'s college graduation.']
     }
     getImagesSRC = () => {
         var images = [];
